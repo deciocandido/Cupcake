@@ -1,0 +1,49 @@
+.header{
+    background-color: blanchedalmond;
+    text-align: center;
+    font-family: "Sofia", sans-serif;
+}
+.body{
+    
+    text-align: center;
+}
+.container {
+    background-color: blanchedalmond;
+    text-align: center;
+}
+.footer{
+    background-color: blanchedalmond;
+    text-align: center;
+}
+@media only screen and (max-width: 400px){
+    body{
+        background-color: blanchedalmond;
+    }
+}
+
+@media only screen and (max-width: 550px){
+    body{
+        background-color: blanchedalmond;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    body{
+        background-color: blanchedalmond;
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    body{
+        background-color: blanchedalmond;
+        font-size: 28px;
+    }
+}
+
+@media only screen and (max-width: 1600px){
+    body{
+        background-color: blanchedalmond;
+        font-size: 24px;
+    }
+}

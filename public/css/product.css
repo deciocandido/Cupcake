@@ -1,0 +1,54 @@
+.row{
+    text-align: center;
+}
+
+img{
+    text-align: center;
+    height: 140px;
+    margin: 10px;
+    padding: 10px;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    width: 140px;
+    border-radius: 10px;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.flex-container > img{
+    text-align: center;
+    width: 200px;
+    height: 250px;
+    margin: 10px;
+    padding: 10px;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 6px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+p{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h3{
+    font-style: oblique;
+}
